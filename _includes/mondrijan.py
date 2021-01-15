@@ -6,7 +6,7 @@ import pygame as pg
 import pygamebg
 
 #otvaramo prozor
-sirina, visina = 820, 820
+sirina, visina = 410, 410
 prozor = pygamebg.open_window(sirina,visina,'Mondrijan')
 
 # -*- acsection: main -*-
@@ -21,13 +21,13 @@ plava = (0,17,107)
 zuta = (234, 170,0)
 
 #crtamo pravougaonike
-pg.draw.rect(prozor, crvena, (210, 0, 610, 600))
-pg.draw.rect(prozor, bela, (0, 0, 195, 230))
-pg.draw.rect(prozor, bela, (0, 260, 195, 340))
-pg.draw.rect(prozor, plava, (0, 615, 195, 205))
-pg.draw.rect(prozor, bela, (210, 615, 560, 205))
-pg.draw.rect(prozor, bela, (790, 615, 30, 100))
-pg.draw.rect(prozor, zuta, (790, 740, 30, 90))
+pg.draw.rect(prozor, crvena, (105, 0, 305, 300))
+pg.draw.rect(prozor, bela, (0, 0, 97, 115))
+pg.draw.rect(prozor, bela, (0, 130, 97, 170))
+pg.draw.rect(prozor, plava, (0, 307, 97, 102))
+pg.draw.rect(prozor, bela, (105, 307, 277, 102))
+pg.draw.rect(prozor, bela, (390, 307, 20, 50))
+pg.draw.rect(prozor, zuta, (390, 365, 20, 45))
 
 # -*- acsection: after-main -*-
 

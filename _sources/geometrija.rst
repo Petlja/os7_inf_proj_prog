@@ -73,17 +73,17 @@
    zuta_tamnija = (240,230,140)
 
    def crtaj_kutiju(A, h):
-      #crtamo jednu kutiju vodeći računa da su nam sve definisane u odnosu na koordinate tačke A i veličinu h
-      B = (A[X] - ort_j[X], A[Y] - ort_j[Y])
-      C = (B[X] - ort_i[X], B[Y] - ort_i[Y])
-      D = (A[X] - ort_i[X], A[Y] - ort_i[Y])
-      A1 = (A[X] + h * ort_k[X], A[Y] + h * ort_k[Y])
-      B1 = (B[X] + h * ort_k[X], B[Y] + h * ort_k[Y])
-      C1 = (C[X] + h * ort_k[X], C[Y] + h * ort_k[Y])
-      D1 = (D[X] + h * ort_k[X], D[Y] + h * ort_k[Y])
-      pg.draw.polygon(prozor, braon, [A, D, D1, A1])
-      pg.draw.polygon(prozor, zuta_svetlija, [A, B, B1, A1])
-      pg.draw.polygon(prozor, zuta_tamnija, [A1, B1, C1, D1])
+       #crtamo jednu kutiju vodeći računa da su nam sve definisane u odnosu na koordinate tačke A i veličinu h
+       B = (A[X] - ort_j[X], A[Y] - ort_j[Y])
+       C = (B[X] - ort_i[X], B[Y] - ort_i[Y])
+       D = (A[X] - ort_i[X], A[Y] - ort_i[Y])
+       A1 = (A[X] + h * ort_k[X], A[Y] + h * ort_k[Y])
+       B1 = (B[X] + h * ort_k[X], B[Y] + h * ort_k[Y])
+       C1 = (C[X] + h * ort_k[X], C[Y] + h * ort_k[Y])
+       D1 = (D[X] + h * ort_k[X], D[Y] + h * ort_k[Y])
+       pg.draw.polygon(prozor, braon, [A, D, D1, A1])
+       pg.draw.polygon(prozor, zuta_svetlija, [A, B, B1, A1])
+       pg.draw.polygon(prozor, zuta_tamnija, [A1, B1, C1, D1])
 
    #broj kutija u spoljnem sloju 
    broj_kutija=5
