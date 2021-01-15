@@ -3,7 +3,7 @@ import pygame as pg
 import pygamebg
 
 (sirina, visina) = (800, 600)
-prozor = pygamebg.open_window(sirina,visina,'Kutije')
+prozor = pygamebg.open_window(sirina,visina,'Obrazac')
 
 # -*- acsection: main -*-
 
@@ -14,6 +14,13 @@ ort_k = (0, -40)
 #ove dve vrednosti nam pomažu prilikom dohvatanja elemenata torki 
 X, Y = 0, 1
 
+prozor.fill(pg.Color("black"))
+
+#boje 
+zuta_svetlija = (255,255,0)
+braon = (165,42,42)
+zuta_tamnija = (240,230,140)
+
 def crtaj_kutiju(A, h):
     #crtamo jednu kutiju vodeći računa da su nam sve definisane u odnosu na koordinate tačke A i veličinu h
     B = (A[X] - ort_j[X], A[Y] - ort_j[Y])
@@ -23,9 +30,9 @@ def crtaj_kutiju(A, h):
     B1 = (B[X] + h * ort_k[X], B[Y] + h * ort_k[Y])
     C1 = (C[X] + h * ort_k[X], C[Y] + h * ort_k[Y])
     D1 = (D[X] + h * ort_k[X], D[Y] + h * ort_k[Y])
-    pg.draw.polygon(prozor, pg.Color("Brown"), [A, D, D1, A1])
-    pg.draw.polygon(prozor, pg.Color("Yellow"), [A, B, B1, A1])
-    pg.draw.polygon(prozor, pg.Color("Khaki"), [A1, B1, C1, D1])
+    pg.draw.polygon(prozor, braon, [A, D, D1, A1])
+    pg.draw.polygon(prozor, zuta_svetlija, [A, B, B1, A1])
+    pg.draw.polygon(prozor, zuta_tamnija, [A1, B1, C1, D1])
 
 #broj kutija u spoljnem sloju 
 broj_kutija=5
