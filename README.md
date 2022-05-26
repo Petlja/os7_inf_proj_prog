@@ -1,16 +1,15 @@
-# Programiranje za prvi razred specijalizovanih IT odeljenja 
+# Projektna nastava za sedmi razred osnovne škole računarstvo 
 
-Ovaj repozitorijum posvećen je kursu za Programiranje za prvi razred specijalizovanih IT odeljenja. 
+Ovaj repozitorijum posvećen je priručnik za Projektna nastava za sedmi razred osnovne škole računarstvo. 
 
-Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/kurs/369/0](https://petlja.org/kurs/369/)
+Kurs je na Petljom portalu dotupan ovde: [https://github.com/Petlja/7_projektni_racunarstvo_pygame](https://github.com/Petlja/7_projektni_racunarstvo_pygame)
 
-Kurs možete itegrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/specit1_prog/releases
 
 ## Konverzija u *HTML*
 
 U ovom repozitorijumu se nalazi izvorna forma sadržaja koju pomoću alata [PetljaDoc](https://github.com/Petlja/PetljaDoc) možete konvertovati u skup *HTML* strana.
 
-Na https://petlja.github.io/gim1_rac_prog možete pregledati na taj način dobijene *HTML* strane.
+Na https://petlja.github.io/os7_inf_proj_prog možete pregledati na taj način dobijene *HTML* strane.
 
 ## License
 
