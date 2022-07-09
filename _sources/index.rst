@@ -19,6 +19,7 @@
     01_uvod.rst
     02_o_projektima.rst
     kuca.rst
+    suma.rst
     slikari.rst
     geometrija.rst
     animacije.rst
