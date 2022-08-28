@@ -19,7 +19,7 @@
 спадају у зимзелене четинарске биљке чији је лист у облику иглица.
 
 .. image:: ../_images/ski_staza.jpg
-    :width: 200px
+    :width: 780px
     :align: center
 
 .. questionnote::
