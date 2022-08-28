@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
@@ -107,6 +108,7 @@
     <script type="text/javascript" src="_static/karelCorner.js"></script>
     <script type="text/javascript" src="_static/karelRobot.js"></script>
     <script type="text/javascript" src="_static/karelWorld.js"></script>
+    <script type="text/javascript" src="_static/karelChat.js"></script>
     <script type="text/javascript" src="_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="_static/karelUI.js"></script>
     <script type="text/javascript" src="_static/karel.js"></script>
@@ -203,16 +205,14 @@
 <div class="section" id="id2">
 <h2>Мотивација<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 
-    <div class="course-box course-box-special">
+    <div class="note-wrapper questionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/question-mark.png" class="note-image questionnote-image" /> 
         <div class="course-content">
-            <h4 class="carbox-title">
-                <img class="corner-image float-right" src="_static/img/question-mark.png" />
-            </h4>
-            <p>
 <p>Да ли у месту где ти станујеш има доста дрвећа?  Да ли волиш да проводише време у шуми или парку и уживаш
 окружен/окружена зеленилом? Јеси ли некада посадиo/посадила дрво?</p>
 
-    </p></div></div>
+    </div></div>
 <p>За шуме се каже још и да су „плућа” планете јер производе кисеоник. Дрвенасте биљке могу бити листопадне и
 зимзелене. Зимзелене биљке имају лист који не опада када дође јесен. С обзиром да
 је лист неопходан и најзначајнији за произвидњу кисеоника (у њему  се врши фотосинтеза), то значи да оне производе кисеоник током целе године!</p>
@@ -221,17 +221,15 @@
 за почетнике
 тако и за искусне скијаше. Обично су са обе стране окружене шумом коју најчешће чине разне врсте високих јелки. Јелке
 спадају у зимзелене четинарске биљке чији је лист у облику иглица.</p>
-<a class="reference internal image-reference" href="_images/ski_staza.jpg"><img alt="_images/ski_staza.jpg" class="align-center" src="_images/ski_staza.jpg" style="width: 200px;" /></a>
+<a class="reference internal image-reference" href="_images/ski_staza.jpg"><img alt="_images/ski_staza.jpg" class="align-center" src="_images/ski_staza.jpg" style="width: 780px;" /></a>
 
-    <div class="course-box course-box-special">
+    <div class="note-wrapper questionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/question-mark.png" class="note-image questionnote-image" /> 
         <div class="course-content">
-            <h4 class="carbox-title">
-                <img class="corner-image float-right" src="_static/img/question-mark.png" />
-            </h4>
-            <p>
 <p>Да ли си некада покушао/покушала да скијаш? Ако ниси, да ли би волео/волела да пробаш?</p>
 
-    </p></div></div>
+    </div></div>
 </div>
 <div class="section" id="id3">
 <h2>Анализа и планирање<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
@@ -255,27 +253,25 @@
 Можете искористити и делове наредног
 кода, а можете кренути и са вашом идејом од самог почетка.</p>
 
-    <div class="course-box course-box-special">
+    <div class="note-wrapper questionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/question-mark.png" class="note-image questionnote-image" /> 
         <div class="course-content">
-            <h4 class="carbox-title">
-                <img class="corner-image float-right" src="_static/img/question-mark.png" />
-            </h4>
-            <p>
 <p>Поред скијашке стазе постављена су два реда јелки. Напиши програм
 који исцртава ову скијашку стазу.</p>
 
-    </p></div></div>
+    </div></div>
 
     <div class="note-wrapper infonote-type">
         <div class="note-icon-holder"> </div>
         <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p>Најбоље би било да прво напишемо функцију која када јој се задају параметри црта једну јелку.
 Овакав приступ решавању омогућиће нам да вишеструким позивом ове Функције
 једноставно нацртамо цео дрворед!</p>
 
-    </p></div></div>
+    </div></div>
 <p>Функција ће примати координате сидра (средину дна стабла
 јелке), али и димензију јелке. Да би цртеж реалније изгледао
 претпоставимо да неће све крошње бити у истој нијанси зелене боје,
