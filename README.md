@@ -2,7 +2,7 @@
 
 Ovaj repozitorijum posvećen je priručnik za Projektnu nastavu za sedmi razred osnovne škole računarstvo. 
 
-Kurs je na Petljom portalu dotupan ovde: [https://github.com/Petlja/7_projektni_racunarstvo_pygame](https://github.com/Petlja/7_projektni_racunarstvo_pygame)
+Kurs je na Petljinom portalu dotupan ovde: [https://github.com/Petlja/7_projektni_racunarstvo_pygame](https://github.com/Petlja/7_projektni_racunarstvo_pygame)
 
 
 ## Konverzija u *HTML*
