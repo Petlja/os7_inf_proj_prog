@@ -1,4 +1,4 @@
-﻿# -*- acsection: general-init -*-
+# -*- acsection: general-init -*-
 import pygame as pg
 import pygamebg
 
